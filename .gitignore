@@ -16,3 +16,6 @@ obj/
 
 # Visual Studio Code workspace
 *.code-workspace
+
+# Perfis de publicação duplicados pelo Visual Studio (ex.: " - Zip Deploy1.pubxml") — manter só localmente
+Properties/PublishProfiles/* - Zip Deploy*.pubxml
