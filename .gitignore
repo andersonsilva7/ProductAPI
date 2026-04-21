@@ -1,0 +1,18 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+*.DS_Store
+.env
+*.log
+*.db
+
+# Rider
+.idea/
+
+# Visual Studio Code workspace
+*.code-workspace

@@ -1,0 +1,342 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "net8.0",
+    "targetDisplayName": ".NETCoreApp,Version=v8.0"
+  },
+  "analysisStartTime": "2026-04-14T00:20:20.0224822Z",
+  "analysisEndTime": "2026-04-14T00:20:40.9247741Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 1,
+      "issues": 3,
+      "incidents": 10,
+      "effort": 10
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 1,
+        "Optional": 4,
+        "Potential": 5,
+        "Information": 0
+      },
+      "category": {
+        "NuGet": 9,
+        "Project": 1
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "ProductAPI.csproj",
+      "startingProject": true,
+      "issues": 3,
+      "storyPoints": 10,
+      "properties": {
+        "appName": "ProductAPI",
+        "projectKind": "AspNetCore",
+        "frameworks": [
+          "net5.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 13,
+        "numberOfCodeFiles": 11,
+        "linesTotal": 413,
+        "linesOfCode": 391,
+        "totalApiScanned": 193,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "68181ac4-cad5-4ded-b8df-2d66730befe4",
+          "ruleId": "NuGet.0002",
+          "projectPath": "ProductAPI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 8.0.25",
+              "protected": "Microsoft.EntityFrameworkCore, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 8.0.25"
+            },
+            "kind": "File",
+            "path": "ProductAPI.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 8.0.25",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore 8.0.25",
+            "label": "Microsoft.EntityFrameworkCore 5.0.5",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore",
+              "PackageVersion": "5.0.5",
+              "PackageNewVersion": "8.0.25",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "da7412ec-2523-4f53-a3c7-36ad0e0e4706",
+          "ruleId": "NuGet.0002",
+          "projectPath": "ProductAPI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.SqlServer, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer 8.0.25",
+              "protected": "Microsoft.EntityFrameworkCore.SqlServer, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer 8.0.25"
+            },
+            "kind": "File",
+            "path": "ProductAPI.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.SqlServer, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer 8.0.25",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.SqlServer, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer 8.0.25",
+            "label": "Microsoft.EntityFrameworkCore.SqlServer 5.0.5",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore.SqlServer",
+              "PackageVersion": "5.0.5",
+              "PackageNewVersion": "8.0.25",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "34fbb3c4-41a2-4e6d-b71e-5bde5add4e41",
+          "ruleId": "NuGet.0002",
+          "projectPath": "ProductAPI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.Design, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 8.0.25",
+              "protected": "Microsoft.EntityFrameworkCore.Design, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 8.0.25"
+            },
+            "kind": "File",
+            "path": "ProductAPI.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.Design, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 8.0.25",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.Design, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design 8.0.25",
+            "label": "Microsoft.EntityFrameworkCore.Design 5.0.5",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore.Design",
+              "PackageVersion": "5.0.5",
+              "PackageNewVersion": "8.0.25",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "7f4854cf-e0ea-4a97-b997-99b14499b1c4",
+          "ruleId": "NuGet.0002",
+          "projectPath": "ProductAPI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.VisualStudio.Web.CodeGeneration.Design, 5.0.2\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.VisualStudio.Web.CodeGeneration.Design, and replace with new package Microsoft.VisualStudio.Web.CodeGeneration.Design 8.0.23",
+              "protected": "Microsoft.VisualStudio.Web.CodeGeneration.Design, 5.0.2\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.VisualStudio.Web.CodeGeneration.Design, and replace with new package Microsoft.VisualStudio.Web.CodeGeneration.Design 8.0.23"
+            },
+            "kind": "File",
+            "path": "ProductAPI.csproj",
+            "snippet": "Microsoft.VisualStudio.Web.CodeGeneration.Design, 5.0.2\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.VisualStudio.Web.CodeGeneration.Design, and replace with new package Microsoft.VisualStudio.Web.CodeGeneration.Design 8.0.23",
+            "protectedSnippet": "Microsoft.VisualStudio.Web.CodeGeneration.Design, 5.0.2\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.VisualStudio.Web.CodeGeneration.Design, and replace with new package Microsoft.VisualStudio.Web.CodeGeneration.Design 8.0.23",
+            "label": "Microsoft.VisualStudio.Web.CodeGeneration.Design 5.0.2",
+            "properties": {
+              "PackageId": "Microsoft.VisualStudio.Web.CodeGeneration.Design",
+              "PackageVersion": "5.0.2",
+              "PackageNewVersion": "8.0.23",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "a7f5a3ed-1b83-4d1b-9095-2d29ba72fe9e",
+          "ruleId": "NuGet.0002",
+          "projectPath": "ProductAPI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.Tools, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore.Tools, and replace with new package Microsoft.EntityFrameworkCore.Tools 8.0.25",
+              "protected": "Microsoft.EntityFrameworkCore.Tools, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore.Tools, and replace with new package Microsoft.EntityFrameworkCore.Tools 8.0.25"
+            },
+            "kind": "File",
+            "path": "ProductAPI.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.Tools, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore.Tools, and replace with new package Microsoft.EntityFrameworkCore.Tools 8.0.25",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.Tools, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.EntityFrameworkCore.Tools, and replace with new package Microsoft.EntityFrameworkCore.Tools 8.0.25",
+            "label": "Microsoft.EntityFrameworkCore.Tools 5.0.5",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore.Tools",
+              "PackageVersion": "5.0.5",
+              "PackageNewVersion": "8.0.25",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "ddc55423-ec09-4525-92f7-b68ad4e9d585",
+          "ruleId": "NuGet.0005",
+          "projectPath": "ProductAPI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore, 9.0.14",
+              "protected": "Microsoft.EntityFrameworkCore, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore, 9.0.14"
+            },
+            "kind": "File",
+            "path": "ProductAPI.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore, 9.0.14",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore, and replace with new package Microsoft.EntityFrameworkCore, 9.0.14",
+            "label": "Microsoft.EntityFrameworkCore 5.0.5",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore",
+              "PackageVersion": "5.0.5",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "f723023f-66f0-432a-87a7-6138eba11b26",
+          "ruleId": "NuGet.0005",
+          "projectPath": "ProductAPI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.SqlServer, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer, 9.0.14",
+              "protected": "Microsoft.EntityFrameworkCore.SqlServer, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer, 9.0.14"
+            },
+            "kind": "File",
+            "path": "ProductAPI.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.SqlServer, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer, 9.0.14",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.SqlServer, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore.SqlServer, and replace with new package Microsoft.EntityFrameworkCore.SqlServer, 9.0.14",
+            "label": "Microsoft.EntityFrameworkCore.SqlServer 5.0.5",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore.SqlServer",
+              "PackageVersion": "5.0.5",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "4f6a6f33-fff5-4a96-b7d1-6c45723570f6",
+          "ruleId": "NuGet.0005",
+          "projectPath": "ProductAPI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.Design, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design, 9.0.14",
+              "protected": "Microsoft.EntityFrameworkCore.Design, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design, 9.0.14"
+            },
+            "kind": "File",
+            "path": "ProductAPI.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.Design, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design, 9.0.14",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.Design, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore.Design, and replace with new package Microsoft.EntityFrameworkCore.Design, 9.0.14",
+            "label": "Microsoft.EntityFrameworkCore.Design 5.0.5",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore.Design",
+              "PackageVersion": "5.0.5",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "46b89672-7512-4940-8f18-9617f2cdbbd1",
+          "ruleId": "NuGet.0005",
+          "projectPath": "ProductAPI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.EntityFrameworkCore.Tools, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore.Tools, and replace with new package Microsoft.EntityFrameworkCore.Tools, 10.0.5",
+              "protected": "Microsoft.EntityFrameworkCore.Tools, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore.Tools, and replace with new package Microsoft.EntityFrameworkCore.Tools, 10.0.5"
+            },
+            "kind": "File",
+            "path": "ProductAPI.csproj",
+            "snippet": "Microsoft.EntityFrameworkCore.Tools, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore.Tools, and replace with new package Microsoft.EntityFrameworkCore.Tools, 10.0.5",
+            "protectedSnippet": "Microsoft.EntityFrameworkCore.Tools, 5.0.5\n\nRecomenda\u00E7\u00E3o:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217\nRemove Microsoft.EntityFrameworkCore.Tools, and replace with new package Microsoft.EntityFrameworkCore.Tools, 10.0.5",
+            "label": "Microsoft.EntityFrameworkCore.Tools 5.0.5",
+            "properties": {
+              "PackageId": "Microsoft.EntityFrameworkCore.Tools",
+              "PackageVersion": "5.0.5",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "95836745-42da-4795-81ce-2024ae1c878b",
+          "ruleId": "Project.0002",
+          "projectPath": "ProductAPI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Estrutura de destino atual: net5.0\nEstrutura de destino recomendada: net8.0",
+              "protected": "Estrutura de destino atual: net5.0\nEstrutura de destino recomendada: net8.0"
+            },
+            "kind": "File",
+            "path": "ProductAPI.csproj",
+            "snippet": "Estrutura de destino atual: net5.0\nEstrutura de destino recomendada: net8.0",
+            "protectedSnippet": "Estrutura de destino atual: net5.0\nEstrutura de destino recomendada: net8.0",
+            "properties": {
+              "CurrentTargetFramework": "net5.0",
+              "RecommendedTargetFramework": "net8.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    }
+  ],
+  "rules": {
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "isFeature": false,
+      "description": "A atualiza\u00E7\u00E3o do pacote NuGet \u00E9 recomendada para a estrutura de destino selecionada.\n\nRecomenda-se que os pacotes padr\u00E3o do .NET tenham vers\u00F5es correspondentes \u00E0 vers\u00E3o do .NET que o projeto se destina.\n\nAlguns outros pacotes tamb\u00E9m s\u00E3o conhecidos por funcionar melhor para as estruturas de destino selecionadas.",
+      "label": "Recomenda-se a atualiza\u00E7\u00E3o do pacote NuGet",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0005": {
+      "id": "NuGet.0005",
+      "isFeature": false,
+      "description": "O pacote NuGet foi preterido.\n\nConsulte sua documenta\u00E7\u00E3o e verifique se h\u00E1 alguma orienta\u00E7\u00E3o para a substitui\u00E7\u00E3o da funcionalidade fornecida por esse pacote.",
+      "label": "O pacote NuGet foi preterido",
+      "severity": "Optional",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262531",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "A estrutura de destino do projeto precisa ser alterada para a nova estrutura de destino que voc\u00EA selecionou para essa atualiza\u00E7\u00E3o.\n\nDurante a atualiza\u00E7\u00E3o, a estrutura de destino ser\u00E1 ajustada para a plataforma correspondente, quando aplic\u00E1vel. Em alguns casos, o projeto ter\u00E1 v\u00E1rias estruturas de destino ap\u00F3s\u00A0a atualiza\u00E7\u00E3o se estiver usando recursos que agora t\u00EAm suas pr\u00F3prias plataformas nas estruturas modernas do .NET (Windows, iOS, Android etc.).",
+      "label": "As estruturas de destino do projeto precisam ser alteradas",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Vis\u00E3o geral da portabilidade do .NET Framework para o .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": "SDKs do projeto .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}
