@@ -29,6 +29,13 @@ Instruções rápidas:
      - `Development` -> `Database.EnsureCreated()`
      - demais ambientes -> `Database.Migrate()`
 
+4. Observação importante
+   - Se `ASPNETCORE_ENVIRONMENT` não estiver definido (ou vier com valor diferente de `Development`), a aplicação vai seguir o caminho de produção e tentará usar SQL Server.
+   - Em máquina local sem SQL Server, isso gera erro de conexão na inicialização.
+   - Para forçar SQLite local, garanta:
+     - `ASPNETCORE_ENVIRONMENT=Development`
+     - `dotnet run --project ProductAPI.csproj --urls "http://localhost:5000"`
+
 4. `appsettings.Development.json`
    - Usado somente no ambiente `Development`.
    - Definir `ConnectionStrings:DefaultConnection` para SQLite local.
